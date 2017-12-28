@@ -1,0 +1,24 @@
+{
+    "name": "font-awesome-json-svg",
+    "version": "1.0.0",
+    "description": "Font Awesome paths.json generator",
+    "main": "pathgen",
+    "scripts": {},
+    "author": "",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/brian40io/Font-Awesome-JSON-SVG.git"
+    },
+    "bin": {
+      "pathgen": "./pathgen"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "bluebird": "^2.9.13",
+      "font-awesome": "^4.7.0",
+      "lodash.indexby": "^3.0.0",
+      "svgo": "0.4.4",
+      "svgson": "^2.1.0",
+      "xml2js": "^0.4.5"
+    }
+  }
